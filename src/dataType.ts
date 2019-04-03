@@ -22,4 +22,5 @@ let c : Color = Color.Blue // 通过key获取值
 console.log(c)
 let n: string = Color[100] // 通过值获取key
 console.log(n)
- 
+
+
