@@ -23,4 +23,14 @@ console.log(c)
 let n: string = Color[100] // 通过值获取key
 console.log(n)
 
+function warnUser() : void {
+    console.warn('this is warn log')
+}
+warnUser()
 
+// declare function create(o: object | null): void;
+// create({ prop: 0 });
+
+let defaults = { food: "spicy", price: "$$", ambiance: { food: 'lala' } };
+let search = { food: "rich", ...defaults };
+console.log(search)

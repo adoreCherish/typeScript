@@ -1,5 +1,8 @@
 import { sayHello } from "./greeter";
 import './dataType';
+import './interface';
+import './genericity';
+import './class';
 // function showHello(divName: string, name: string) {
 //     console.log(divName, name)
 //     const elt = document.getElementById(divName);
