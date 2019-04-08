@@ -78,7 +78,8 @@ var Dog = function (_Animal) {
 }(Animal);
 
 var dog = new Dog('pounds');
-dog.move(40);
+// dog.move(40);
+dog.move(10);
 
 },{}],2:[function(require,module,exports){
 'use strict';

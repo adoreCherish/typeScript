@@ -32,4 +32,5 @@ class Dog extends Animal{
     }
 }
 let dog = new Dog('pounds');
-dog.move(40);
+// dog.move(40);
+dog.move(10)
